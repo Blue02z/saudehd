@@ -6,7 +6,7 @@ function Banner() {
     <div>
 
 
-        <div className='lg:bg-[#F5F5FA] max-md:min-w-[500px]  lg:p-16 '>
+        <div className='lg:bg-[#F5F5FA] max-md:min-w-[500px] max-md:items-center flex max-md:flex-col lg:p-16 '>
             <h2 className=' font-[700] text-[13px] text-[#333]'>EXPLORE NOSSA APLICAÇÃO</h2>
             <div className='flex justify-evelyn max-md:flex-col gap-10'>
                 <div className='max-w-[315px]'>

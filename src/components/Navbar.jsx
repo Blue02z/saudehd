@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <div>
 
-            <div className='flex justify-around ml-5 items-center mt-1 border-b-[2px] pb-3'>
+            <div className='flex justify-around  items-center mt-1 border-b-[2px] pb-5'>
 
                 <div>
                     <img src={logonav} className='md:max-w-[152px] md sm:max-w-[100px] max-w-[152px]'  alt="" />
@@ -24,14 +24,14 @@ export default function Navbar() {
                 {}
 
                 <div className='flex items-center gap-5 cursor-pointer'>
-                    <div className='border border-[#0E62FD] rounded-[px] flex justify-center  py-[6px] px-[32px]'>
-                        <h2 className='text-[#0E62FD] font-semibold text-center'>Teste <br /> Gratis</h2>
+                    <div className='border border-[#0E62FD] rounded-[px] items-center flex justify-center  py-[6px] px-[32px]'>
+                        <h2 className='text-[#0E62FD] font-semibold text-center'>Teste  Gratis</h2>
                         <FaExternalLinkAlt color='#0E62FD' className='ml-4 w-[14px] h-[15px]'/>
 
                     </div>
 
 
-                    <div className=''>
+                    <div>
                         <button className='bg-[#0E62FD] max-w-[146px] py-[8px] px-[24px] rounded-[22px] flex items-center justify-center'>
                             <h2 className='text-white font-poppins-bold font-[600]'>Sou cliente</h2>
                         </button>

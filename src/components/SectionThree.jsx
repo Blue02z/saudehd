@@ -47,15 +47,15 @@ function SectionThree() {
            
 
                 {btnSet === "anual" ? 
-                <div className='gap-5 flex justify-center'>
+                <div className='gap-5 max-md:flex-col flex justify-center'>
                      <div className='w-[276px] h-[36px] flex justify-center items-center rounded-[14px] absolute bg-[#5025D1] mb-2'>
-                        <p className='text-white font-[16px] font-[600]'>Mais populares</p>
+                        <p className='text-white text-[16px] font-[600]'>Mais populares</p>
                      </div>
                     <Table cor={"#1577E0"} mensal={true}/>  <TableTwo cor={"#5025D1"} mensal={true} />  <TableThree cor={"#D33061"} mensal={true}/>
                      </div>
-                : <div className='gap-5 flex justify-center'>
+                : <div className='gap-5 flex max-md:flex-col justify-center'>
                     <div className='w-[276px] h-[36px] flex justify-center items-center rounded-[14px] absolute bg-[#5025D1] mb-2'>
-                        <p className='text-white font-[16px] font-[600]'>Mais populares</p>
+                        <p className='text-white text-[16px] font-[600]'>Mais populares</p>
                      </div>
                     <Table cor={"#1577E0"}/>  <TableTwo cor={"#5025D1"}/>  <TableThree cor={"#D33061"}/>
                  </div>

@@ -7,12 +7,12 @@ function TableThree({cor, mensal}) {
 
 <div className='w-[355px] mt-4 h-[922px]  border-2 border-[#A3A9BC] p-4 rounded-[6px]'>
                 <div className='flex flex-col items-center mt-2 gap-3'>
-                    <h2 className='text-[#2D2D2D] text-[25px] font-[600]'>Premium</h2>
+                    <h2 className='text-[#2D2D2D] text-[25px] font-[650]'>Premium</h2>
                     
                     {
                         mensal === true ? <div className='flex flex-col items-center gap-2'>
                         <h3 className='text-[#9C9C9C] text-[16px] font-[700]'><strike>R$ 699,90</strike></h3>
-                         <h2 className={`text-[${cor}] text-[18px] font-[700] bg-[#f78da7]`}>ECONOMIZE 22%</h2>
+                         <h2 className={`text-[${cor}] text-[16px] font-[700] bg-[#f78da7]`}>ECONOMIZE 40%</h2>
                     </div> : <h1 className='mb-[32px]'></h1>
                     }
                     

@@ -7,13 +7,13 @@ function Table({cor, mensal}) {
 
                 <div className='w-[355px] mt-4 h-[922px]  border-2 border-[#A3A9BC] p-4 rounded-[6px]'>
                 <div className='flex flex-col mt-2 items-center gap-3'>
-                    <h2 className='text-[#2D2D2D] text-[25px] font-[600]'>Personal</h2>
+                    <h2 className='text-[#2D2D2D] text-[25px] font-[650]'>Personal</h2>
                   
                     {
                         mensal === true ?
                         <div className='flex flex-col items-center gap-2'>
                         <h3 className='text-[#9C9C9C] text-[16px] font-[700]'><strike>R$ 89,90</strike></h3>
-                         <h2 className={`text-[${cor}] text-[18px] font-[700] bg-[#6EC1E4]`}>ECONOMIZE 22%</h2>
+                         <h2 className={`text-[${cor}] text-[16px] font-[700] bg-[#6ec1e4]`}>ECONOMIZE 22%</h2>
                     </div>: <h1 className='mb-[32px]'></h1>
                     }
                     <h1 className={' text-[48px] font-[700] flex items-center gap-2'}>

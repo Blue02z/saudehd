@@ -12,7 +12,7 @@ function SectionTwo() {
     <div className='flex flex-col items-center'>
             <h4 className='text-[rgba(0,0,0,.5)] font-poppins-bold text-[16px] font-[700]'>FUNCIONALIDADES</h4>
             <div className=' md:min-w-[382px] lg:min-w-[550px] mb-[20px] mt-4'>
-                <h1 className='max-sm:text-[35px] text-center text-[#38383D] font-poppins-bold font-[600] text-[40px]'>Conheça <span className='text-[#0E62FD]'>funcionalidades</span> que fazem a diferença no <br /> seu atendimento</h1>
+                <h1 className='max-sm:text-[35px] text-center text-[#38383D] font-poppins-bold font-[600] text-[40px]'>Conheça <span className='text-[#0E62FD] font-[700]'>funcionalidades</span> que fazem a diferença no <br /> seu atendimento</h1>
             </div>
            
     </div>

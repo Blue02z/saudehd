@@ -10,7 +10,7 @@ function SectionOne() {
                 <div className='max-w-[610px] ml-24 flex flex-col max-sm:items-center'>
                         <h4 className='text-[#63636F] text-[16px] font-bold'>SOFTWARE PARA CLÍNICAS E CONSULTÓRIOS</h4>
                         <div className=' md:min-w-[382px] lg:min-w-[550px] mb-[20px] mt-4'>
-                            <h1 className='max-sm:text-[35px] text-[#424c52] text-[50px] font-[600] font-poppins'><span className=' text-[#0E62FD] font-poppins font-extrabold'>Inovação</span> para <br /> acelerar o crescimento
+                            <h1 className='max-sm:text-[35px] text-[#424c52] text-[50px] font-[500] font-poppins'><span className=' text-[#0E62FD] font-poppins font-extrabold'>Inovação</span> para <br /> acelerar o crescimento
                             da sua clínica.</h1>
                         </div>
                         <p className='max-sm:text-[16px] max-sm:text-center max-sm:max-w-[329px] mb-4 min-w-[412px] font-poppins text-[#424c52] text-[22px] '>Somos a solução intuitiva, completa e de baixo custo que cuida da sua clínica enquanto você prioriza a experiência de quem confia em você.</p>
